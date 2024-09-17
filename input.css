@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    h1, span {
+        @apply font-urbanist
+    }
+    
+}
+
+@layer components {
+    .title-font{
+        @apply font-bold text-[30px]
+    }
+
+}
+
+    .fontSpan{
+        @apply text-primary font-bold
+    }
